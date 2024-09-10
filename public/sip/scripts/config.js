@@ -8,5 +8,5 @@ var user = {
     // Display Name
     "Display" : "大門",
     // WebSocket URL
-    "WSServer"  : "ws://192.168.1.199/mfstwebsock"
+    "WSServer"  : "ws://sip-service.ddns.net:8080/mfstwebsock"
 };
