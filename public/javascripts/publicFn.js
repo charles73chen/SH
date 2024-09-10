@@ -51,3 +51,14 @@ function getMenu() {
     }
     $.ajax(ajaxdata);
 }
+
+
+function nullConver(str){
+    let digitRegExp = /^\d+$/;
+    if (typeof str === "string" && str.trim().length === 0) {
+        return str;
+    }else{
+        return '';
+    }
+    
+}
